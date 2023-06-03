@@ -1,27 +1,28 @@
-# AngularCypressComponents
+# Component Testing in Cypress - Angular Playground
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+A simple playground to write your first component tests in Angular
 
-## Development server
+This is a repository demo for the video courses ["Scrivere E2E test con Cypress"](https://www.fabiobiondi.dev/video-courses/scrivere-e2e-test-con-cypress) (italian)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Run the project
 
-## Build
+```bash
+npm start
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Run Cypress
 
-## Running unit tests
+• Run Cypress UI and select "Component Testing"
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+npm run e2e
+```
 
-## Running end-to-end tests
+### How to write a test
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Write your components and your tests in `src/shared/*` 
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
